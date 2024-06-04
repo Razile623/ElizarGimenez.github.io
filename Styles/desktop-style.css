@@ -1,0 +1,34 @@
+
+  /* .logo-container {
+    left:30%; 
+    margin-top: 15%;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    justify-content: center; 
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 600px;
+
+  }
+  .logo-container::after{
+    content: "";
+    border-radius: 50%;
+    width: 400px;
+    height: 500px;
+    border: 10px solid red; 
+    border-top-color: white;
+    border-bottom-color: black;
+    animation: loading 10s infinite linear;
+    z-index: 2;
+  }
+  @keyframes loading{
+    to{
+      transform: rotate(1turn);
+    }
+  } */
+
+
+ 
