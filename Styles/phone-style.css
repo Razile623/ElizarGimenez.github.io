@@ -1,0 +1,269 @@
+@media (min-width: 560px){
+    .dropdown-button{
+        display:none;
+        position: relative;
+        }    
+    .dropdown-content{
+        display:none;
+        position: relative;
+      } 
+}
+@media (max-width: 559px){
+    .dropdown-button{
+    display:block;
+    position:sticky;
+    top: 10%;
+    bottom: 10%;
+    width: 10vw;
+    margin-right: 80%;
+    cursor: pointer;
+    z-index: 10000;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .navigation{
+        background-color: transparent;
+        height: 5vh;
+        box-shadow: none;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .navigationElements{
+        display: none;
+    }
+    .dropdown-content{
+        border-radius: 15%;
+        position: absolute;
+        /* background-color:#4077F2; */
+        min-width: 120px;
+        padding: 10px;
+        z-index: 1;
+        width: 10vw;
+        height: auto;
+        bottom: 65%;
+        left: 4%;
+        cursor: pointer;
+    }
+    .dropdown-content a {
+      /* display:none; */
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        color: #9c9c9c;
+    }
+    .dropdown-content a:hover{
+        color: #6770d1;
+        font-size: larger;
+    }
+    .dropdown-button:hover{
+        width: 11vw;    
+    }
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 401px){
+    .dropdown-content{
+        bottom: 50%;
+    }
+}
+@media (min-width: 501px){
+    .dropdown-content{
+        bottom: 55%;
+    }
+}
+@media (max-width: 400px){
+    /*---------------------------------------------HOME PAGE--------------------------------------------------------*/
+    .home-page{
+        height: 50vh;
+    }
+    .name{
+        left:17%; 
+    }
+    .p1{
+        left:5%;    
+    }
+    .p2{
+        left:2%;    
+    }
+    .dropdown-content{
+        bottom: 50%;
+    }
+    /*---------------------------------------------ABOUT ME PAGE--------------------------------------------------------*/
+    .about-page{
+        height: 80vh;
+    }
+    .about-me-heading{
+        width: 40vw;
+    }
+    .about-me {
+        top: 30%;
+        left: 12%;
+        width: 75vw;
+    }
+    .example {
+        left: -40%;
+        top: -2%;
+        width: 70vw;
+    }
+    /*---------------------------------------------PROJECT PAGE--------------------------------------------------------*/
+    .project-page{
+        height: 60vh;
+    }
+    .slider .list .item .titleHeading{
+        left: 30%;
+        top: -180%;
+    }
+    .project-heading{
+        left: 30%;
+        top: -180%;
+    }
+    .thumbnail{
+        left: 40%;
+        gap: 20%;
+    }
+    .thumbnail .item img{
+        position: relative; 
+        width: 150%;
+        height: 50%;    
+        right: 230%;
+        top: 45%;
+    }
+    .slider .list .item .content .title{
+        top: -20%;
+        left: 45%;
+    }
+    .projectTitle{
+        margin-top: -35%;   
+    }
+    .projectTitle{
+        margin-left: 90%;   
+        margin-top: -50%;   
+    }
+    .code-check{
+        margin-left: 0%;
+    }
+    .nextPrevArrows button{
+        width: 9vw;
+        height: 5vh;
+    }
+    /*---------------------------------------------CERTIFICATE PAGE--------------------------------------------------------*/
+    .certificate-page{
+        height: 70vh;
+    }
+    .left-container{
+        height: 60vh;
+        overflow: scroll;
+    }
+    .first-right-container{
+        height: 60vh;
+    }
+    .second-right-container{
+        height: 60vh;
+    }
+    /*---------------------------------------------PROJECT PAGE--------------------------------------------------------*/
+    .testimonial-page{
+        height: 50vh;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 320px){
+     /*---------------------------------------------HOME PAGE--------------------------------------------------------*/
+     .home-page{
+        height: 50vh;
+    }
+    .name{
+        left:17%; 
+    }
+    .p1{
+        left:5%;    
+    }
+    .p2{
+        left:2%;    
+    }
+    .dropdown-content{
+        bottom: 50%;
+    }
+    /*---------------------------------------------ABOUT ME PAGE--------------------------------------------------------*/
+    .about-page{
+        height: 80vh;
+    }
+    .about-me-heading{
+        width: 40vw;
+    }
+    .about-me {
+        top: 25%;
+        left: 12%;
+        width: 75vw;
+    }
+    .example {
+        left: -40%;
+        top: -2%;
+        width: 70vw;
+    }
+    /*---------------------------------------------PROJECT PAGE--------------------------------------------------------*/
+    .project-page{
+        height: 60vh;
+    }
+    .slider .list .item .titleHeading{
+        left: 30%;
+        top: -180%;
+    }
+    .project-heading{
+        left: 30%;
+        top: -180%;
+    }
+    .thumbnail{
+        left: 40%;
+        gap: 20%;
+    }
+    .thumbnail .item img{
+        position: relative; 
+        width: 150%;
+        height: 50%;    
+        right: 230%;
+        top: 45%;
+    }
+    .slider .list .item .content .title{
+        top: -20%;
+        left: 45%;
+    }
+    .projectTitle{
+        margin-top: -35%;   
+    }
+    .projectTitle{
+        margin-left: 90%;   
+        margin-top: -50%;   
+    }
+    .code-check{
+        margin-left: 0%;
+    }
+    .nextPrevArrows button{
+        width: 9vw;
+        height: 5vh;
+    }
+    /*---------------------------------------------CERTIFICATE PAGE--------------------------------------------------------*/
+    .certificate-page{
+        height: 70vh;
+    }
+    .left-container{
+        height: 60vh;
+        overflow: scroll;
+    }
+    .first-right-container{
+        height: 60vh;
+    }
+    .second-right-container{
+        height: 60vh;
+    }
+    /*---------------------------------------------PROJECT PAGE--------------------------------------------------------*/
+    .testimonial-page{
+        height: 50vh;
+    }
+}

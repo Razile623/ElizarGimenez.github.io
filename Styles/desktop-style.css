@@ -24,11 +24,14 @@
     animation: loading 10s infinite linear;
     z-index: 2;
   }
-  @keyframes loading{
+  @keyframes loading{ 
     to{
       transform: rotate(1turn);
     }
   } */
 
+  @media (min-width: 769px) {
 
+
+  }
  
