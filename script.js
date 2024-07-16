@@ -140,13 +140,38 @@ ciscoCertificate.addEventListener('click', () =>{
     }  
 });
 
-
-accomplishment.addEventListener('click', () =>{
-    const accomplishmentReport = document.createElement('img');
-    accomplishmentReport.src = "assets/background-img-project.jpg";
-    displayPanel.innerHTML ="";
-    displayPanel.appendChild(accomplishmentReport);
-});
+accomplishment.addEventListener('click', () => {
+    displayPanel.innerHTML = ""; // Clear previous content
+  
+    // Create separate img elements for each image
+    const image1 = document.createElement('img');
+    image1.src = "assets/Certificates/Trainings/ACCOMPLISHMENT-REPORT-Gimenez-Elizar-1.png";
+  
+    const image2 = document.createElement('img');
+    image2.src = "assets/Certificates/Trainings/ACCOMPLISHMENT-REPORT-Gimenez-Elizar-2.png";
+  
+    const image3 = document.createElement('img');
+    image3.src = "assets/Certificates/Trainings/ACCOMPLISHMENT-REPORT-Gimenez-Elizar-3.png";
+  
+    const image4 = document.createElement('img');
+    image4.src = "assets/Certificates/Trainings/ACCOMPLISHMENT-REPORT-Gimenez-Elizar-4.png";
+  
+    const image5 = document.createElement('img');
+    image5.src = "assets/Certificates/Trainings/ACCOMPLISHMENT-REPORT-Gimenez-Elizar-5.png";
+  
+    // Append all images to displayPanel
+    displayPanel.appendChild(image1);
+    displayPanel.appendChild(image2);
+    displayPanel.appendChild(image3);
+    displayPanel.appendChild(image4);
+    displayPanel.appendChild(image5);
+  });
+// accomplishment.addEventListener('click', () =>{
+//     const accomplishmentReport = document.createElement('img');
+//     accomplishmentReport.src = "assets/background-img-project.jpg";
+//     displayPanel.innerHTML ="";
+//     displayPanel.appendChild(accomplishmentReport);
+// });
 
 necCertificate.addEventListener('click', () =>{
     const NECCertificate = document.createElement('img');
